@@ -28,10 +28,23 @@ public class PlayerController : MonoBehaviour
         if (inputHorizontal != 0)
         {
             playerAnimator.SetBool("isWalking", true);
+            flipPlayerSprite(inputHorizontal);
         }
         else
         {
             playerAnimator.SetBool("isWalking", false);
+        }
+    }
+
+    private void flipPlayerSprite(float ih)
+    {
+        if(ih > 0)
+        {
+            transform.eulerAngles = new Vector3(0, 180, 0);
+        }
+        else if(ih < 0)
+        {
+            transform.eulerAngles = new Vector3(0, 0, 0);
         }
     }
 
