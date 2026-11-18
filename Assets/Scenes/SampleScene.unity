@@ -221,6 +221,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 30566367}
+  - component: {fileID: 30566368}
   m_Layer: 0
   m_Name: Layer04
   m_TagString: Untagged
@@ -244,6 +245,22 @@ Transform:
   - {fileID: 1849938420}
   m_Father: {fileID: 1027199836}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &30566368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30566366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f60e20549b01196488846c410bbfc63c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimpleParallax
+  parallaxSpeed: {x: 0.4, y: 0.4}
+  autoScrollSpeed: {x: 0, y: 0}
+  imageOverlap: 0.0005
+  oneImage: 0
 --- !u!1 &95829516
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,6 +454,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 191299632}
+  - component: {fileID: 191299633}
   m_Layer: 0
   m_Name: Layer02
   m_TagString: Untagged
@@ -460,6 +478,22 @@ Transform:
   - {fileID: 421095494}
   m_Father: {fileID: 1027199836}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &191299633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191299631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f60e20549b01196488846c410bbfc63c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimpleParallax
+  parallaxSpeed: {x: 0.6, y: 0.6}
+  autoScrollSpeed: {x: 0, y: 0}
+  imageOverlap: 0.0005
+  oneImage: 0
 --- !u!1 &208641556
 GameObject:
   m_ObjectHideFlags: 0
@@ -1431,6 +1465,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 482691691}
+  - component: {fileID: 482691692}
   m_Layer: 0
   m_Name: Layer00
   m_TagString: Untagged
@@ -1454,6 +1489,22 @@ Transform:
   - {fileID: 797983184}
   m_Father: {fileID: 1027199836}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &482691692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482691690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f60e20549b01196488846c410bbfc63c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimpleParallax
+  parallaxSpeed: {x: 0.8, y: 0.8}
+  autoScrollSpeed: {x: 0, y: 0}
+  imageOverlap: 0.0005
+  oneImage: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1586,7 +1637,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.304991, y: -0.9945361, z: -11.42}
+  m_LocalPosition: {x: 4.304991, y: -6.674536, z: -11.42}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3105,7 +3156,7 @@ Transform:
   m_GameObject: {fileID: 1590419457}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.304991, y: -0.9945361, z: -11.42}
+  m_LocalPosition: {x: 4.304991, y: -6.674536, z: -11.42}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3151,6 +3202,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1772482764}
+  - component: {fileID: 1772482765}
   m_Layer: 0
   m_Name: Layer03
   m_TagString: Untagged
@@ -3174,6 +3226,22 @@ Transform:
   - {fileID: 443894742}
   m_Father: {fileID: 1027199836}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1772482765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772482763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f60e20549b01196488846c410bbfc63c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimpleParallax
+  parallaxSpeed: {x: 0.5, y: 0.5}
+  autoScrollSpeed: {x: 0, y: 0}
+  imageOverlap: 0.0005
+  oneImage: 0
 --- !u!1 &1849938419
 GameObject:
   m_ObjectHideFlags: 0
@@ -3310,6 +3378,7 @@ GameObject:
   - component: {fileID: 2046206847}
   - component: {fileID: 2046206846}
   - component: {fileID: 2046206845}
+  - component: {fileID: 2046206848}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -3432,12 +3501,28 @@ Transform:
   m_GameObject: {fileID: 2046206844}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.7311, y: -11.85, z: 0}
-  m_LocalScale: {x: 53.641155, y: 1, z: 1}
+  m_LocalPosition: {x: 9.9571, y: -11.1, z: 0}
+  m_LocalScale: {x: -62.468582, y: 1.6686, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2046206848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046206844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f60e20549b01196488846c410bbfc63c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimpleParallax
+  parallaxSpeed: {x: 0.3, y: 0.3}
+  autoScrollSpeed: {x: 0, y: 0}
+  imageOverlap: 0
+  oneImage: 0
 --- !u!1 &2054603932
 GameObject:
   m_ObjectHideFlags: 0
@@ -3467,7 +3552,7 @@ Transform:
   m_GameObject: {fileID: 2054603932}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.9999922, z: -0, w: -0.003956668}
-  m_LocalPosition: {x: -6.01, y: -1.92, z: 0.01}
+  m_LocalPosition: {x: -6.01, y: -7.6, z: 0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3710,6 +3795,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2107196794}
+  - component: {fileID: 2107196795}
   m_Layer: 0
   m_Name: Layer01
   m_TagString: Untagged
@@ -3733,6 +3819,22 @@ Transform:
   - {fileID: 998033782}
   m_Father: {fileID: 1027199836}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2107196795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107196793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f60e20549b01196488846c410bbfc63c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimpleParallax
+  parallaxSpeed: {x: 0.7, y: 0.7}
+  autoScrollSpeed: {x: 0, y: 0}
+  imageOverlap: 0.0005
+  oneImage: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
